@@ -4,7 +4,7 @@ Summary(fr):	Utilitaires de développement binaire de GNU - S390x binutils
 Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla S390x - binutils
 Summary(pt_BR):	Utilitários para desenvolvimento de binários da GNU - S390x binutils
 Summary(tr):	GNU geliþtirme araçlarý - S390x binutils
-Name:		crossS390x-binutils
+Name:		crosss390x-binutils
 Version:	2.15.92.0.2
 Release:	1
 License:	GPL
