@@ -5,18 +5,17 @@ Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla S390x - binutils
 Summary(pt_BR):	Utilitários para desenvolvimento de binários da GNU - S390x binutils
 Summary(tr):	GNU geliþtirme araçlarý - S390x binutils
 Name:		crosss390x-binutils
-Version:	2.15.92.0.2
+Version:	2.16.90.0.3
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.kernel.org/pub/linux/devel/binutils/binutils-%{version}.tar.bz2
-# Source0-md5:	702bc82d8b10914e112fb5c5d8b66498
+# Source0-md5:	46637559faa3157b189e0835a9bed08b
 URL:		http://sources.redhat.com/binutils/
 BuildRequires:	automake
 BuildRequires:	bash
 BuildRequires:	bison
 BuildRequires:	flex
-BuildRequires:	gettext-devel
 ExcludeArch:	s390x
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -59,6 +58,7 @@ LDFLAGS="%{rpmldflags}" \
 CONFIG_SHELL="/bin/bash" \
 ./configure \
 	--disable-shared \
+	--disable-nls \
 	--prefix=%{_prefix} \
 	--libdir=%{_libdir} \
 	--mandir=%{_mandir} \
