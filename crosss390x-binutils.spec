@@ -5,12 +5,12 @@ Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla S/390 - binutils
 Summary(pt_BR):	Utilitários para desenvolvimento de binários da GNU - S/390 binutils
 Summary(tr):	GNU geliþtirme araçlarý - S/390 binutils
 Name:		crosss390x-binutils
-Version:	2.16.91.0.5
+Version:	2.17.50.0.3
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.kernel.org/pub/linux/devel/binutils/binutils-%{version}.tar.bz2
-# Source0-md5:	29fdde06e229672daaaacbf52362520a
+# Source0-md5:	684c535df0ff8ffaa11fe4aed14539e7
 URL:		http://sources.redhat.com/binutils/
 BuildRequires:	automake
 BuildRequires:	bash
